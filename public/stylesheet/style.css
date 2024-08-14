@@ -1,0 +1,100 @@
+:root {
+  font-size: x-large;
+}
+
+body {
+  background-color: #ffce13;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 13vh;
+  width: 100vw;
+  background-color: #88070b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 0 0 black;
+}
+
+.ip {
+  width: 9em;
+  height: 35%;
+  background-color: #f65156;
+  border-radius: 50px;
+  margin: 0 10%;
+  box-shadow: 0 3px 0 0 black;
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+}
+
+.green-icon {
+  width: 10px;
+  margin: 10px;
+  padding: 0px;
+
+  border: solid black 2px;
+  border-radius: 50%;
+}
+
+.button-nav {
+  width: 3.7em;
+  height: 3.7em;
+  margin-right: 15px;
+
+  background-color: #f65156;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 0 0 black;
+}
+
+.button-nav:active {
+  background-color: #922d31;
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 black;
+}
+
+.container {
+  width: 100vw;
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+}
+
+.mini-game-button,
+.chat-button {
+  height: 100px;
+  width: 100px;
+
+  font-size: large;
+  background: #009292;
+  box-shadow: 0 5px 0 0 black;
+}
+
+.about-button {
+  height: 80px;
+  width: 80px;
+
+  font-size: large;
+  background: #009292;
+  box-shadow: 0 5px 0 0 black;
+}
+
+.mini-game-button:active,
+.chat-button:active,
+.about-button:active {
+  background-color: #237979;
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 black;
+}
