@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>simple express app</title>
+    <title>simple | {{ title }}</title>
     <link rel="stylesheet" href="/stylesheet/style.css" />
   </head>
   <body>
@@ -12,21 +12,21 @@
     <div class="navbar">
       <div class="ip">
         <img src="/image/Button_Icon.svg" alt="" srcset="" class="green-icon" />
-        192.168.1.13
+        {{ ip }}
       </div>
       <div class="button-holder">
-        <div class="button-nav">button</div>
+        <a class="button-nav" href="/players">button</a>
       </div>
     </div>
 
     <!-- main content -->
 
     <div class="container">
-      <button class="mini-game-button">Mini Games</button>
+      <a class="mini-game-button" href="/mini-games">Mini Games</a>
 
-      <button class="chat-button">Chat</button>
+      <a class="chat-button">Chat</a>
 
-      <button class="about-button">About</button>
+      <a class="about-button">About</a>
     </div>
   </body>
 </html>
